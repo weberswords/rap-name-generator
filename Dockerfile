@@ -18,4 +18,4 @@ RUN npm install -g serve
 CMD serve -s build
 
 # Tell Docker about the port we'll run on.
-EXPOSE 5000
+EXPOSE 8000
