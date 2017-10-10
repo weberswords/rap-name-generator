@@ -34,7 +34,7 @@ class NameForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          <h2>What kind of MC are you?</h2> 
+          <h2>What kind of MC are you??</h2> 
           <p>
           <input type="text" id="inputBox"/>
           </p>
