@@ -6,7 +6,6 @@ class Header extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {value: 'Sup?'};
 
   }
 
@@ -14,9 +13,10 @@ class Header extends React.Component {
 
   render() {
     return (
+      <div>
       <Jumbotron className="jumbotron">
-    <h1>{this.state.value}</h1>
   </Jumbotron>
+  </div>
     );
   }
 }

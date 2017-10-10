@@ -5,7 +5,7 @@ body, html {
   color: #91D38B;
   margin: 0;
   padding: 0;
-  left: 0;
+ 
 }
 
 input {
@@ -15,13 +15,18 @@ input {
 }
 
 .jumbotron {
-    background-color: #65737E;
-    width: 100%;
-    margin:0;
-    padding: 10px;
+    background-image: url('img/graffiti.png');
+    background-position: 0% 20%;
     box-sizing: border-box;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 0;
 
+}
 
+div {
+
+	margin: 0;
 }
 
 #button {
@@ -29,16 +34,19 @@ input {
   background-color: #E50462;
   display: block;
   margin: auto;
+  min-width: 100px;
+  min-height: 40px;
 }
 
 #inputBox {
 
   margin: 20px;
+  min-height: 20px;
 }
 
 .App {
   text-align: center;
-  margin: 10px;
+  margin: 0px;
   box-sizing: border-box;
 
 }
@@ -46,21 +54,6 @@ input {
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 .submit {

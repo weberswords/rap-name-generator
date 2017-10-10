@@ -32,10 +32,12 @@ class NameForm extends React.Component {
 
   render() {
     return (
-      <form bsSize="large" onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit}>
         <label>
-          Name: 
+          <h2>What kind of MC are you?</h2> 
+          <p>
           <input type="text" id="inputBox"/>
+          </p>
         </label>
         <input type="submit" value="Submit" id="button"/>
         <h2 onSubmit={this.handleSubmit}> {this.state.value} </h2>
